@@ -16,7 +16,7 @@ module.exports = function (grunt) {
 		sass: {
 			dist: {
 				files: {
-					'style/style.css' : 'sass/style.sass'
+					"sass/style.css":"sass/style.sass"
 				}
 			}
 		},
@@ -27,7 +27,7 @@ module.exports = function (grunt) {
 				tasks: ['jade']
 			},
 			sass:{
-				files: ['**/*.scss'],
+				files: ['sass/*.sass'],
 				tasks: ['sass']
 			}
 		}
@@ -36,7 +36,9 @@ module.exports = function (grunt) {
 	//Tasks
 	grunt.loadNpmTasks('grunt-contrib-jade');
 	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.loadNpmTasks('grunt-contrib-sass')
+	grunt.loadNpmTasks('grunt-contrib-sass');
+	grunt.loadNpmTasks('grunt-sass');
+
 
 	//default
 	grunt.registerTask('default',['jade','sass','watch']);
