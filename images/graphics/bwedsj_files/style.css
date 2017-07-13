@@ -852,27 +852,26 @@ figure {
 .border {
   height: 600px;
   width: 100%;
-  max-width: 100%;
+  position: relative;
   background-size: auto 600px;
   background-background-color: inherit;
   background-image: url(../images/baujeni/border_blur.png);
   background-repeat: no-repeat;
-  background-postion: top center;
-  position: absolute; }
+  background-postion: center;
+  left: 4%; }
 
 .logo {
   height: 300px;
   width: 300px;
-  z-index: 2;
-  background-size: 100% 100%;
+  background-size: 300px 300px;
   background-background-color: inherit;
-  background-image: url(../images/graphics/logo_jb_21.png);
+  background-image: url(../images/graphics/logo_jb_21_trans.png);
   background-repeat: no-repeat;
   background-position: center;
-  position: fixed;
+  position: absolute;
   top: 50%;
-  left: 50%;
-  margin-left: -100px;
+  right: 50%;
+  margin-right: -150px;
   margin-top: -150px; }
 
 .humans {
