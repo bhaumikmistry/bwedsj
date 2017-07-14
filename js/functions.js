@@ -4,7 +4,12 @@ var wWin = $(window).width();
 var og_hLogo = $('.logo').height();
 var og_wLogo = $('.logo').width();
 var movelogo = true;
-var tLogo = hWin/2 ;  
+
+var tLogo = hWin/2 ;
+if(hWin>600){
+    var tLogo = 600/2 ;
+}
+  
 var lLogo = wWin/2 ;
 
 console.log(hWin)
@@ -12,6 +17,19 @@ console.log(wWin)
 console.log(tLogo)
 console.log(lLogo)
 
+// run when load //
+$(window).bind("load", function() { 
+
+    if(hWin > 700){
+
+        $('.logo').css({'top':'300px'});
+
+    }
+
+
+});
+
+// run when resize //
 $( window ).resize(function() {
     
     hWin = $(window).height();
@@ -19,6 +37,9 @@ $( window ).resize(function() {
     tLogo = hWin/2 ;  
     lLogo = wWin/2 ;
 
+    if(hWin>600){
+        var tLogo = 600/2 ;
+    }
     if($('.logo').top > 200){
         $('.logo').animate({
             top: hWin/2,
@@ -45,7 +66,7 @@ $(window).scroll(function(){
 
         $('.logo').animate({
             top: 150,
-            left: 150,
+            left: 100,
             width: ($('.logo').width()/3),
             height: ($('.logo').height()/3)
         },1000);
