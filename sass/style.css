@@ -852,18 +852,31 @@ figure {
 .border {
   height: 600px;
   width: 100%;
-  max-width: 100%;
-  background-size: auto 600px;
+  position: absolute;
+  z-index: 3;
+  background-size: 100% 600px;
   background-background-color: inherit;
   background-image: url(../images/baujeni/border_blur.png);
   background-repeat: no-repeat;
-  background-postion: top center;
-  position: absolute; }
+  background-background-size: cover;
+  background-postion: top center; }
+
+.blobs {
+  height: 600px;
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+  background-size: 100% 600px;
+  background-background-color: inherit;
+  background-image: url(../images/graphics/blur_blobs.png);
+  background-repeat: no-repeat;
+  background-background-size: cover;
+  background-postion: top center; }
 
 .logo {
   height: 300px;
   width: 300px;
-  z-index: 2;
+  z-index: 4;
   background-size: 100% 100%;
   background-background-color: inherit;
   background-image: url(../images/graphics/logo_jb_21.png);
@@ -878,7 +891,8 @@ figure {
 .humans {
   height: 600px;
   width: 100%;
-  position: relative;
+  position: absolute;
+  z-index: 2;
   background-size: auto 600px;
   background-background-color: inherit;
   background-image: url(../images/baujeni/human_layer_with_shadow_nobgrd_black_blur.png);

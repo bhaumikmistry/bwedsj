@@ -34,21 +34,35 @@ figure
 .border
     height: 600px
     width: 100%
-    max-width: 100%
+    position: absolute
+    z-index: 3
     background:
-        size: auto 600px
+        size: 100% 600px
         background-color: inherit
         image: url(../images/baujeni/border_blur.png)
         repeat: no-repeat
+        background-size: cover;
         postion: top center
+
+.blobs
+    height: 600px
+    width: 100%
     position: absolute
+    z-index: 3
+    background:
+        size: 100% 600px
+        background-color: inherit
+        image: url(../images/graphics/blur_blobs.png)
+        repeat: no-repeat
+        background-size: cover;
+        postion: top center
     
 
 //logo
 .logo
     height: 300px
     width: 300px
-    z-index: 2
+    z-index: 4
     background: 
         size: 100% 100%
         background-color: inherit
@@ -66,7 +80,8 @@ figure
 .humans
     height: 600px
     width: 100%
-    position: relative
+    position: absolute
+    z-index: 2
     background: 
         size: auto 600px
         background-color: inherit

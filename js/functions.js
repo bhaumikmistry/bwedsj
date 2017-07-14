@@ -58,8 +58,6 @@ $(window).scroll(function(){
 
     //  ------ Moving Logo -------
 
-
-    
     if(wScroll>200 && movelogo){
 
         // $('.logo').css({'position':'absolute'});
@@ -103,14 +101,20 @@ $(window).scroll(function(){
         //console.log('in else')
 
     }
+    // ------------------------- //
 
+    // ------ border ---------//
 
-    // $('.logo').css({
-    //     'transform' : 'translate(0px,'+ wScroll/3+'%)'
-    // });
+    $('.border').css({
+        'transform' : 'translate('+ wScroll/5+'%,'+ wScroll/6+'%)'
+    });
 
     $('.humans').css({
         'transform' : 'translate(0px,'+ wScroll/5+'%)'
+    });
+
+    $('.blobs').css({
+        'transform' : 'translate(-'+ wScroll/5+'%,'+ wScroll/6+'%)'
     });
 
 
