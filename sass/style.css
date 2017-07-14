@@ -845,7 +845,7 @@ figure {
   background-image: url(../images/baujeni/background_layer_with_blur_black.png);
   background-size: auto 600px;
   background-position: top center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-attachment: fixed;
   overflow: hidden; }
 
@@ -878,9 +878,9 @@ figure {
 .humans {
   height: 600px;
   width: 100%;
+  position: relative;
   background-size: auto 600px;
   background-background-color: inherit;
   background-image: url(../images/baujeni/human_layer_with_shadow_nobgrd_black_blur.png);
   background-repeat: no-repeat;
-  background-postion: top;
-  position: absolute; }
+  background-postion: top center; }
