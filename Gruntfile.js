@@ -9,7 +9,7 @@ module.exports = function (grunt) {
 					pretty: true,
 				},
 				files:{
-					"build/index.html":"build/index.jade"
+					"index.html":"build/index.jade"
 				}
 			}
 		},
