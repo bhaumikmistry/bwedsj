@@ -51,10 +51,12 @@ $( window ).resize(function() {
 
 });
 
+//-----------------------Scroll------------------//
+
 $(window).scroll(function(){
 
     var wScroll = $(this).scrollTop();
-    //console.log(wScroll)
+    console.log(wScroll)
 
     //  ------ Moving Logo -------
 
@@ -105,17 +107,50 @@ $(window).scroll(function(){
 
     // ------ border ---------//
 
-    $('.border').css({
-        'transform' : 'translate('+ wScroll/5+'%,'+ wScroll/6+'%)'
+    $('.blobs').css({
+        'transform' : 'translate('+ wScroll/15+'%,'+ wScroll/6+'%)'
     });
 
     $('.humans').css({
         'transform' : 'translate(0px,'+ wScroll/5+'%)'
     });
 
-    $('.blobs').css({
-        'transform' : 'translate(-'+ wScroll/5+'%,'+ wScroll/6+'%)'
+    $('.border').css({
+        'transform' : 'translate(-'+ wScroll/15+'%,'+ wScroll/6+'%)'
     });
 
 
 });
+
+
+// ---------------- timer ------------------- //
+// Set the date we're counting down to
+var countDownDate = new Date("Nov 18, 2017 19:30:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("time").innerHTML = " • " + days + " • " + hours + " • "
+  + minutes + " • " + seconds + " • " ;
+   document.getElementById("subtime").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp days &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp hours &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp mintues &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp seconds &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp";
+
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("time").innerHTML = "EXPIRED";
+  }
+}, 1000);
+// -------------------------------------------- //

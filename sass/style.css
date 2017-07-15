@@ -842,7 +842,7 @@ figure {
 .image-holder {
   height: 600px;
   position: relative;
-  background-image: url(../images/baujeni/background_layer_with_blur_black.png);
+  background-image: url(../images/graphics/back_true.png);
   background-size: auto 600px;
   background-position: top center;
   background-repeat: repeat-x;
@@ -898,3 +898,30 @@ figure {
   background-image: url(../images/baujeni/human_layer_with_shadow_nobgrd_black_blur.png);
   background-repeat: no-repeat;
   background-postion: top center; }
+
+.count {
+  margin-top: 150px;
+  height: 300px; }
+  .count .background-time {
+    background-image: url(../images/graphics/background_layer_with_blur_black.png);
+    background-size: auto auto;
+    background-position: center;
+    background-repeat: repeat-x;
+    overflow: hidden;
+    height: 300px;
+    position: relative; }
+    .count .background-time .timeholder {
+      position: relative;
+      padding-top: 120px;
+      text-align: center;
+      margin: 0 auto;
+      width: 100%; }
+    .count .background-time #time {
+      color: #FFF;
+      opacity: 0.8;
+      font-size: 80px;
+      margin-bottom: 0px; }
+    .count .background-time #subtime {
+      color: #FFF;
+      opacity: 0.5;
+      font-size: 20px; }
