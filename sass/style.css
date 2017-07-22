@@ -925,3 +925,19 @@ figure {
       color: #FFF;
       opacity: 0.5;
       font-size: 20px; }
+
+@media screen and (max-width: 600px) {
+  .logo {
+    height: 150px;
+    width: 150px;
+    z-index: 4;
+    background-size: 100% 100%;
+    background-background-color: inherit;
+    background-image: url(../images/graphics/logo_jb_21.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -75px; } }

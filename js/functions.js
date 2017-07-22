@@ -63,10 +63,18 @@ $(window).scroll(function(){
     if(wScroll>200 && movelogo){
 
         // $('.logo').css({'position':'absolute'});
+        // for smaller screen change the position of corner position
+        var x = 150 
+        var y = 100
+        if(wWin < 600){
+            x = 75
+            y = 50 
+        }
 
         $('.logo').animate({
-            top: 150,
-            left: 100,
+            top: x,
+            left: y,
+            
             width: ($('.logo').width()/3),
             height: ($('.logo').height()/3)
         },1000);
@@ -108,7 +116,7 @@ $(window).scroll(function(){
     // ------ border ---------//
 
     $('.blobs').css({
-        'transform' : 'translate('+ wScroll/15+'%,'+ wScroll/6+'%)'
+        'transform' : 'translate('+ wScroll/35+'%,'+ wScroll/6+'%)'
     });
 
     $('.humans').css({
@@ -116,7 +124,7 @@ $(window).scroll(function(){
     });
 
     $('.border').css({
-        'transform' : 'translate(-'+ wScroll/15+'%,'+ wScroll/6+'%)'
+        'transform' : 'translate(-'+ wScroll/35+'%,'+ wScroll/6+'%)'
     });
 
 
@@ -145,7 +153,7 @@ var x = setInterval(function() {
   // Display the result in the element with id="demo"
   document.getElementById("time").innerHTML = " • " + days + " • " + hours + " • "
   + minutes + " • " + seconds + " • " ;
-   document.getElementById("subtime").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp days &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp hours &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp mintues &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp seconds &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp";
+  document.getElementById("subtime").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp days &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp hours &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp mintues &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp seconds &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp";
 
   // If the count down is finished, write some text 
   if (distance < 0) {
