@@ -930,19 +930,46 @@ figure {
   margin-top: 100px;
   height: 600px;
   width: 100%; }
-  .intro .bhau {
-    position: relative;
+  .intro .jeni {
     width: 50%;
     background-color: pink;
-    height: 100%; }
-    .intro .bhau .bimage {
-      height: 200px;
+    height: 100%;
+    float: left; }
+    .intro .jeni .jimage {
+      height: 30%;
       width: 200px;
       left: 50%;
-      background-margin: 0 auto;
-      background-color: black;
+      margin: 0 auto;
+      background-size: contain;
+      background-image: url(../images/graphics/her.png);
+      background-color: inherit;
       background-repeat: no-repeat;
       background-position: relative; }
+    .intro .jeni .jtext {
+      padding-right: 100px;
+      height: 60%;
+      width: 100%;
+      background-color: grey; }
+  .intro .bhau {
+    width: 50%;
+    background-color: pink;
+    height: 100%;
+    float: left; }
+    .intro .bhau .bimage {
+      height: 30%;
+      width: 200px;
+      left: 50%;
+      margin: 0 auto;
+      background-size: contain;
+      background-image: url(../images/graphics/him.png);
+      background-color: inherit;
+      background-repeat: no-repeat;
+      background-position: relative; }
+    .intro .bhau .btext {
+      margin-top: 5%;
+      height: 60%;
+      width: 100%;
+      background-color: green; }
 
 @media screen and (max-width: 600px) {
   .logo {
