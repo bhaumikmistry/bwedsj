@@ -837,8 +837,8 @@ figure {
   height: 240px;
   width: 100%;
   background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-image: url(../images/graphics/rings.png);
+  background-color: pink;
+  background-size: 600px auto;
   background-attachment: fixed; }
   .content article {
     padding: 100px 0;
