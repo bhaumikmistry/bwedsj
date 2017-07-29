@@ -131,6 +131,39 @@ $(window).scroll(function(){
     // -------------------------//
 
 
+//-------- try inro animation --------//
+if(wScroll > 750 && wScroll < 1000){
+
+$('.intro .jeni .jimage').css({
+        'transform' : 'translate(0px,0px)',
+        'opacity':'1'
+    });
+
+$('.intro .bhau .bimage').css({
+        'transform' : 'translate(0px,0px)',
+        'opacity':'1'
+    });    
+
+}
+
+if(wScroll > 850 && wScroll < 1000){
+
+$('.intro .jeni .jtext').css({
+        'transform' : 'translate(0px,0px)',
+        'opacity':'1'
+    });
+setTimeout(function(){
+    console.log('after');
+    $('.intro .bhau .btext').css({
+        'transform' : 'translate(0px,0px)',
+        'opacity':'1'
+    });
+},500);
+
+    
+
+}
+
 
 });
 
