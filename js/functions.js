@@ -154,10 +154,20 @@ $('.intro .jeni .jimage').css({
         'opacity':'1'
     });
 
+$('.intro .jeni #jname').css({
+        'transform' : 'translate(0px,0px)',
+        'opacity':'0.4'
+    });    
+
 $('.intro .bhau .bimage').css({
         'transform' : 'translate(0px,0px)',
         'opacity':'1'
     });    
+
+$('.intro .bhau #bname').css({
+        'transform' : 'translate(0px,0px)',
+        'opacity':'0.4'
+    });
 
 }
 

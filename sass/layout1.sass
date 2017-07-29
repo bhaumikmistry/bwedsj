@@ -23,17 +23,28 @@ figure
         height: 240px
         margin: 0 auto
         text-align: center
-        #names
-            color: #010101
-            font-family: Georgia
-            opacity: 0.7
-            font-size: 60px
         #wedding-details
             margin-top: -40px
             color: #010101
             opacity: 0.5
             font-size: 20px
             margin-bottom: 0px
+            //font-family: Snell Roundhand
+        #names
+            color: #010101
+            font-family: Georgia
+            opacity: 0.7
+            font-size: 60px
+        #city-name
+            margin-top: -30px
+            color: #010101
+            opacity: 0.4
+            font-size: 30px
+        #date-wedding
+            margin-top: -20px
+            color: #010101
+            opacity: 0.4
+            font-size: 20px
 
 
 //Parallax
@@ -42,6 +53,7 @@ figure
 .image-holder
     height: 600px
     position: relative
+    box-shadow: -10px -10px -10px 8px white inset
     background: 
         image: url(../images/graphics/back_true.png)
         size: auto 600px
@@ -110,7 +122,8 @@ figure
         repeat: no-repeat
         postion: top center
 
-// second page - times.
+/////////////////////////////////////
+//      count down
 
 .count
     //margin-top: 50px
@@ -131,10 +144,16 @@ figure
         //     mage: url(../images/graphics/background_layer_with_blur_black.png)
         .timeholder
             position: relative
-            padding-top: 120px
+            padding-top: 80px
             text-align: center
             margin: 0 auto
             width: 100%
+        #timeTitle
+            font-family: Snell Roundhand
+            color: #FFF
+            opacity: 0.5
+            font-size: 40px
+            margin-bottom: 0px    
         #time
             color: #FFF
             opacity: 0.8
@@ -144,11 +163,26 @@ figure
             color: #FFF
             opacity: 0.5
             font-size: 20px
-    
+//   
 /////////////////////////////////////
 
 /////////////////////////////////////
-//      profile intro
+//      profile 
+
+.bride-groom
+    position: relative 
+    top: 100px
+    height: 50px
+    width: 100%
+    margin: 0 auto
+    text-align: center
+    #above-intro-text
+        color: #010101
+        font-family: Georgia
+        opacity: 0.7
+        font-size: 30px
+
+
 .intro
     margin-top: 100px
     height: 600px
@@ -159,6 +193,7 @@ figure
         //    color: pink
         height: 100%
         float: left
+        text-align: center
         .jimage
             height: 30%
             width: 200px
@@ -172,9 +207,18 @@ figure
                 color: inherit
                 repeat: no-repeat
                 position: relative
+        #jname
+            margin-top: 5%
+            color: #010101
+            font-family: Georgia
+            opacity: 0.4
+            font-size: 15px
+            opacity: 0
+            transform : translate(-50px,0px)
+            transition: all 0.4s ease-in-out
         .jtext
             position: relative
-            top: 5%
+            //top: 5%
             left: 5%        
             height: 60%
             width: 90%
@@ -201,6 +245,7 @@ figure
         //    color: pink
         height: 100%
         float: left
+        text-align: center
         .bimage
             height: 30%
             width: 200px
@@ -214,9 +259,18 @@ figure
                 color: inherit
                 repeat: no-repeat
                 position: relative
+        #bname
+            margin-top: 5%
+            color: #010101
+            font-family: Georgia
+            opacity: 0.4
+            font-size: 15px
+            opacity: 0
+            transform : translate(50px,0px)
+            transition: all 0.4s ease-in-out
         .btext
             position: relative
-            top: 5%
+            //top: 5%
             //left: 5%        
             height: 60%
             width: 90%
@@ -263,10 +317,17 @@ figure
     .count
         .background-time
             .timeholder
+                #timeTitle
+                    font-size: 25px
                 #time
                     font-size: 30px
                 #subtime
                     font-size: 10px
+
+    .bride-groom
+        #above-intro-text
+            font-size: 20px
+
     .intro
         .jeni  
            .jimage
@@ -292,3 +353,13 @@ figure
                 opacity: 0.5
                 font-size: 15px
                 margin-bottom: 0px
+            #city-name
+                margin-top: -20px
+                color: #010101
+                opacity: 0.4
+                font-size: 20px
+            #date-wedding
+                margin-top: -20px
+                color: #010101
+                opacity: 0.4
+                font-size: 15px
