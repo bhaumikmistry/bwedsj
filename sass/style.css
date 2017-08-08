@@ -1070,6 +1070,18 @@ figure {
           color: #010100;
           font-size: 20px; }
 
+.invite-cover {
+  position: fixed;
+  top: 2000px;
+  height: 600px;
+  width: 50%;
+  opacity: 0.5;
+  left: 50%;
+  margin-left: -250px;
+  background-color: inherit;
+  background-image: url(../images/graphics/invite_front.png);
+  background-repeat: no-repeat; }
+
 @media screen and (max-width: 600px) {
   .logo {
     height: 150px;

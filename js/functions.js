@@ -60,6 +60,12 @@ $( window ).resize(function() {
 
 $('#clickme').click(function(){
     $("html, body").animate({ scrollTop: 0 }, 600);
+    while ($(this).scrollTop() > 0) {
+        
+    }
+    setTimeout(function(){
+        location.reload();
+    },1600);
     return false;
  });
 
@@ -147,7 +153,7 @@ $(window).scroll(function(){
 
 
 //-------- try inro animation --------//
-if(wScroll > 750 && wScroll < 1000){
+if(wScroll > 950){
 
 $('.intro .jeni .jimage').css({
         'transform' : 'translate(0px,0px)',
@@ -171,24 +177,36 @@ $('.intro .bhau #bname').css({
 
 }
 
-if(wScroll > 850 && wScroll < 1000){
+// ----- short intro stuff ----- //
+if(wScroll > 1050){
 
 $('.intro .jeni .jtext').css({
         'transform' : 'translate(0px,0px)',
         'opacity':'1'
     });
 setTimeout(function(){
-    console.log('after');
     $('.intro .bhau .btext').css({
         'transform' : 'translate(0px,0px)',
         'opacity':'1'
     });
 },500);
 
-    
-
 }
 
+
+// --- invite card stuff --- //
+
+if(wScroll > 1100 && wScroll < 2000){
+    console.log("if")
+    $(".invite-cover").css({"position":"fixed"})
+    $(".invite-cover").css("top",Math.max($(window).height()-400,hWin+1120-$(this).scrollTop()));
+    $(".invite-cover").css({"opacity":"1"})
+
+}else if(wScroll > 2000) {
+    console.log("else")
+    $(".invite-cover").css("top",Math.min($(window).height(),hWin+1720-$(this).scrollTop()));
+    $(".invite-cover").css({"position":"relative"})
+}
 
 });
 
@@ -225,4 +243,5 @@ var x = setInterval(function() {
     document.getElementById("time").innerHTML = "EXPIRED";
   }
 }, 1000);
+
 // -------------------------------------------- //
