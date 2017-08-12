@@ -299,17 +299,31 @@ figure
 //  invites
 
 .invite-cover
-    position: fixed 
-    top: 2000px
-    height: 600px
-    width: 50%
-    opacity: 0.5
-    left: 50%
-    margin-left: -250px
-    background: 
-        color: inherit
+    // position: relative 
+    // margin-top: 100px
+    // height: 600px
+    // width: 50%
+    // opacity: 1
+    // left: 50%
+    // margin-left: -250px
+    // overflow: hidden
+    // background: 
+    //     color: inherit
+    //     image: url(../images/graphics/invite_front.png)
+    //     repeat: no-repeat
+    position: relative
+    margin-top: 100px
+    height: 500px
+    width: 500px
+    margin: 0 auto
+    left: 0
+    right: 0
+    background:
+        size: contain
         image: url(../images/graphics/invite_front.png)
+        color: inherit
         repeat: no-repeat
+        position: relative
 
 
 @media screen and (max-width: 600px)
@@ -378,3 +392,8 @@ figure
                 color: #010101
                 opacity: 0.4
                 font-size: 15px
+
+    .invite-cover
+        height: 400px
+        width: 400px
+    
