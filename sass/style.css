@@ -1072,10 +1072,9 @@ figure {
 
 .invite-cover {
   position: relative;
-  margin-top: 100px;
   height: 500px;
   width: 500px;
-  margin: 0 auto;
+  margin: 100px auto;
   left: 0;
   right: 0;
   background-size: contain;
@@ -1083,6 +1082,19 @@ figure {
   background-color: inherit;
   background-repeat: no-repeat;
   background-position: relative; }
+
+.invite-pages {
+  height: 1700px;
+  width: 100%;
+  margin: 200px auto;
+  position: absolute;
+  z-index: -2; }
+  .invite-pages .invite-page {
+    height: 350px;
+    width: 350px;
+    margin: 50px auto;
+    background-opacity: 0.1;
+    background-color: black; }
 
 @media screen and (max-width: 600px) {
   .logo {
@@ -1138,4 +1150,11 @@ figure {
     font-size: 15px; }
   .invite-cover {
     height: 400px;
-    width: 400px; } }
+    width: 400px; }
+  .invite-pages {
+    height: 1700; }
+    .invite-pages .invite-page {
+      height: 350px;
+      width: 250px;
+      margin: 50px auto;
+      background-color: black; } }

@@ -312,10 +312,9 @@ figure
     //     image: url(../images/graphics/invite_front.png)
     //     repeat: no-repeat
     position: relative
-    margin-top: 100px
     height: 500px
     width: 500px
-    margin: 0 auto
+    margin: 100px auto 
     left: 0
     right: 0
     background:
@@ -324,6 +323,21 @@ figure
         color: inherit
         repeat: no-repeat
         position: relative
+
+.invite-pages
+    height: 1700px
+    width: 100%
+    margin: 200px auto
+    position: absolute
+    z-index: -2
+    .invite-page
+        height: 350px
+        width: 350px
+        margin: 50px auto
+        background: 
+            opacity: 0.1
+            color: black
+
 
 
 @media screen and (max-width: 600px)
@@ -396,4 +410,13 @@ figure
     .invite-cover
         height: 400px
         width: 400px
+
+    .invite-pages
+        height: 1700
+        .invite-page
+            height: 350px
+            width: 250px
+            margin: 50px auto
+            background: 
+                color: black
     

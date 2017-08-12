@@ -205,19 +205,21 @@ if(wScroll < $('.intro').offset().top + 700 - ($(window).height()*0.65)) {
 
     //$(".invite-cover").css("margin-top",0)
 }
-else if(wScroll > $('.intro').offset().top + 700 - ($(window).height()*0.65) && wScroll < 1900 ){
-    console.log($('.intro').offset().top + 600)
-    console.log($(window).height()*0.65)
+else if(wScroll > $('.intro').offset().top + 700 - ($(window).height()*0.65) && wScroll < 3100 ){
+    //console.log($('.intro').offset().top + 600)
+    //console.log($(window).height()*0.65)
     console.log("top")
     console.log($('.invite-cover').offset().top)
     $(".invite-cover").css({"position":"fixed"})
     $(".invite-cover").css("top",Math.max(($(window).height()*0.65)-100,0));
+    //$(".invite-cover").css({"left":50%})
     //$(".invite-cover").css({"opacity":"1"})
-}else if(wScroll > 1900){
+}else if(wScroll > 3100){
     console.log("else")
     console.log(($(window).height()*0.65)-100)
     $(".invite-cover").css({"position":"relative"})
     $(".invite-cover").css("margin-top",100)
+    $(".invite-cover").css("top",Math.max(($(window).height()*0.65)-100,0)+1200);
     //$(".invite-cover").css("top",Math.min($(window).height(),hWin+1720-$(this).scrollTop()));
     //$(".invite-cover").css({"position":"relative"})
 }
