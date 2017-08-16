@@ -1104,8 +1104,11 @@ figure {
   margin-top: 550px;
   text-align: center; }
   .our-story #our-story-title {
-    font-family: Georgia;
-    font-size: 50px; }
+    position: relative;
+    padding-top: 60px;
+    font-family: Snell Roundhand;
+    font-size: 50px;
+    color: white; }
 
 * {
   margin: 0;
@@ -1136,7 +1139,7 @@ figure {
   .timeline ul li div {
     position: relative;
     bottom: 0;
-    width: 200px;
+    width: 400px;
     padding: 15px;
     border-radius: 10px;
     background: #D3D3D3; }
@@ -1221,4 +1224,17 @@ figure {
       height: 350px;
       width: 250px;
       margin: 50px auto;
-      background-color: black; } }
+      background-color: black; }
+  .timeline ul li {
+    width: 3px; }
+    .timeline ul li::after {
+      width: 15px;
+      height: 15px; }
+    .timeline ul li div {
+      width: 100px; }
+      .timeline ul li div #details {
+        font-size: 10px; }
+    .timeline ul li:nth-child(odd) div {
+      left: 25px; }
+    .timeline ul li:nth-child(even) div {
+      left: -119px; } }
