@@ -1089,11 +1089,11 @@ figure {
   margin: 200px auto;
   position: absolute;
   z-index: -2; }
-  .invite-pages .invite-page {
+  .invite-pages .invite-page-1, .invite-pages .invite-page-2, .invite-pages .invite-page-3, .invite-pages .invite-page-4 {
     height: 350px;
     width: 350px;
     margin: 50px auto;
-    background-opacity: 0.1;
+    background-opacity: 1;
     background-color: black; }
 
 .our-story {
@@ -1213,11 +1213,11 @@ figure {
     opacity: 0.4;
     font-size: 15px; }
   .invite-cover {
-    height: 400px;
-    width: 400px; }
+    height: 350px;
+    width: 350px; }
   .invite-pages {
     height: 1700; }
-    .invite-pages .invite-page {
+    .invite-pages .invite-page-1, .invite-pages .invite-page-2, .invite-pages .invite-page-3, .invite-pages .invite-page-4 {
       height: 350px;
       width: 250px;
       margin: 50px auto;

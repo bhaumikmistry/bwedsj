@@ -205,7 +205,7 @@ if(wScroll < $('.intro').offset().top + 700 - ($(window).height()*0.65)) {
 
     //$(".invite-cover").css("margin-top",0)
 }
-else if(wScroll > $('.intro').offset().top + 700 - ($(window).height()*0.65) && wScroll < 3100 ){
+else if(wScroll > $('.intro').offset().top + 700 - ($(window).height()*0.65) && wScroll < ($('.invite-page-4').offset().top+350)-($(window).height()*0.65) ){
     //console.log($('.intro').offset().top + 600)
     //console.log($(window).height()*0.65)
     console.log("top")
@@ -214,12 +214,12 @@ else if(wScroll > $('.intro').offset().top + 700 - ($(window).height()*0.65) && 
     $(".invite-cover").css("top",Math.max(($(window).height()*0.65)-100,0));
     //$(".invite-cover").css({"left":50%})
     //$(".invite-cover").css({"opacity":"1"})
-}else if(wScroll > 3100){
+}else if(wScroll > ($('.invite-page-4').offset().top+350)-($(window).height()*0.65) ){
     console.log("else")
-    console.log(($(window).height()*0.65)-100)
+    console.log($('.invite-pages').offset().bottom)
     $(".invite-cover").css({"position":"relative"})
     $(".invite-cover").css("margin-top",100)
-    $(".invite-cover").css("top",Math.max(($(window).height()*0.65)-100,0)+1200);
+    $(".invite-cover").css("top",1700);
     //$(".invite-cover").css("top",Math.min($(window).height(),hWin+1720-$(this).scrollTop()));
     //$(".invite-cover").css({"position":"relative"})
 }
