@@ -1163,6 +1163,25 @@ figure {
       border-width: 8px 0 8px 16px;
       border-color: transparent transparent transparent #D3D3D3; }
 
+.place-holder-for-div {
+  height: 4000px; }
+
+.images-wedding {
+  height: 400px;
+  width: 100%; }
+  .images-wedding .image-holder-insta {
+    height: 200px;
+    background-color: black;
+    position: relative;
+    margin-top: 50px;
+    text-align: center; }
+    .images-wedding .image-holder-insta #images-title {
+      position: relative;
+      padding-top: 70px;
+      font-family: Snell Roundhand;
+      font-size: 50px;
+      color: white; }
+
 @media screen and (max-width: 600px) {
   .logo {
     height: 150px;
@@ -1231,10 +1250,11 @@ figure {
       width: 15px;
       height: 15px; }
     .timeline ul li div {
-      width: 100px; }
+      width: 150px;
+      padding: 7px; }
       .timeline ul li div #details {
         font-size: 10px; }
     .timeline ul li:nth-child(odd) div {
       left: 25px; }
     .timeline ul li:nth-child(even) div {
-      left: -119px; } }
+      left: -169px; } }
