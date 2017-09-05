@@ -1169,18 +1169,23 @@ figure {
 .images-wedding {
   height: 400px;
   width: 100%; }
-  .images-wedding .image-holder-insta {
+  .images-wedding .image-holder-title {
     height: 200px;
     background-color: black;
     position: relative;
     margin-top: 50px;
     text-align: center; }
-    .images-wedding .image-holder-insta #images-title {
+    .images-wedding .image-holder-title #images-title {
       position: relative;
       padding-top: 70px;
       font-family: Snell Roundhand;
       font-size: 50px;
       color: white; }
+  .images-wedding .image-holder-content {
+    height: 200px;
+    background-color: green;
+    position: relative;
+    text-align: center; }
 
 @media screen and (max-width: 600px) {
   .logo {
