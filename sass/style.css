@@ -977,100 +977,104 @@ figure {
   margin-top: 100px;
   height: 600px;
   width: 100%; }
-  .intro .jeni {
-    width: 50%;
-    height: 100%;
-    float: left;
-    text-align: center; }
-    .intro .jeni .jimage {
-      height: 30vh;
-      width: 30vh;
-      margin: 0 auto;
-      opacity: 0;
-      border-radius: 150px;
-      transform: translate(-50px, 0px);
-      transition: all 0.4s ease-in-out;
-      background-size: contain;
-      background-image: url(../images/graphics/her_2.png);
-      background-color: inherit;
-      background-repeat: no-repeat;
-      background-position: relative; }
-    .intro .jeni #jname {
-      margin-top: 5%;
-      color: #010101;
-      font-family: Georgia;
-      opacity: 0.4;
-      font-size: 15px;
-      opacity: 0;
-      transform: translate(-50px, 0px);
-      transition: all 0.4s ease-in-out; }
-    .intro .jeni .jtext {
-      position: relative;
-      left: 5%;
-      height: 60%;
-      width: 90%;
-      border-radius: 15px;
-      opacity: 0;
-      transform: translate(0px, -50px);
-      transition: all 0.4s ease-in-out;
-      background-color: #EFEEEE; }
-      .intro .jeni .jtext .jbackground {
+  .intro .people-holder {
+    width: 700px;
+    height: 100vh;
+    margin: 0 auto; }
+    .intro .people-holder .jeni {
+      width: 50%;
+      height: 100%;
+      float: left;
+      text-align: center; }
+      .intro .people-holder .jeni .jimage {
+        height: 30vh;
+        width: 30vh;
+        margin: 0 auto;
+        opacity: 0;
+        border-radius: 150px;
+        transform: translate(-50px, 0px);
+        transition: all 0.4s ease-in-out;
+        background-size: contain;
+        background-image: url(../images/graphics/her_2.png);
+        background-color: inherit;
+        background-repeat: no-repeat;
+        background-position: relative; }
+      .intro .people-holder .jeni #jname {
+        margin-top: 5%;
+        color: #010101;
+        font-family: Georgia;
+        opacity: 0.4;
+        font-size: 15px;
+        opacity: 0;
+        transform: translate(-50px, 0px);
+        transition: all 0.4s ease-in-out; }
+      .intro .people-holder .jeni .jtext {
         position: relative;
-        top: 5%;
         left: 5%;
-        height: 90%;
-        width: 90%; }
-        .intro .jeni .jtext .jbackground #jenisays {
-          opacity: 0.7;
-          color: #010100;
-          font-size: 20px; }
-  .intro .bhau {
-    width: 50%;
-    height: 100%;
-    float: left;
-    text-align: center; }
-    .intro .bhau .bimage {
-      height: 30vh;
-      width: 30vh;
-      margin: 0 auto;
-      opacity: 0;
-      transform: translate(50px, 0px);
-      transition: all 0.4s ease-in-out;
-      border-radius: 150px;
-      background-size: contain;
-      background-image: url(../images/graphics/him_2.png);
-      background-color: black;
-      background-repeat: no-repeat;
-      background-position: relative; }
-    .intro .bhau #bname {
-      margin-top: 5%;
-      color: #010101;
-      font-family: Georgia;
-      opacity: 0.4;
-      font-size: 15px;
-      opacity: 0;
-      transform: translate(50px, 0px);
-      transition: all 0.4s ease-in-out; }
-    .intro .bhau .btext {
-      position: relative;
-      height: 60%;
-      width: 90%;
-      opacity: 1;
-      border-radius: 15px;
-      opacity: 0;
-      transform: translate(0px, -50px);
-      transition: all 0.4s ease-in-out;
-      background-color: #EFEEEE; }
-      .intro .bhau .btext .bbackground {
+        height: 60%;
+        width: 90%;
+        border-radius: 15px;
+        opacity: 0;
+        transform: translate(0px, -50px);
+        transition: all 0.4s ease-in-out;
+        background-color: #EFEEEE; }
+        .intro .people-holder .jeni .jtext .jbackground {
+          position: relative;
+          top: 5%;
+          left: 5%;
+          height: 90%;
+          width: 90%; }
+          .intro .people-holder .jeni .jtext .jbackground #jenisays {
+            opacity: 0.7;
+            color: #010100;
+            font-size: 20px; }
+    .intro .people-holder .bhau {
+      width: 50%;
+      height: 100%;
+      float: left;
+      text-align: center; }
+      .intro .people-holder .bhau .bimage {
+        height: 30vh;
+        width: 30vh;
+        margin: 0 auto;
+        opacity: 0;
+        transform: translate(50px, 0px);
+        transition: all 0.4s ease-in-out;
+        border-radius: 150px;
+        background-size: contain;
+        background-image: url(../images/graphics/him_2.png);
+        background-color: black;
+        background-repeat: no-repeat;
+        background-position: relative; }
+      .intro .people-holder .bhau #bname {
+        margin-top: 5%;
+        color: #010101;
+        font-family: Georgia;
+        opacity: 0.4;
+        font-size: 15px;
+        opacity: 0;
+        transform: translate(50px, 0px);
+        transition: all 0.4s ease-in-out; }
+      .intro .people-holder .bhau .btext {
         position: relative;
-        top: 5%;
-        left: 5%;
-        height: 90%;
-        width: 90%; }
-        .intro .bhau .btext .bbackground #bhausays {
-          opacity: 0.7;
-          color: #010100;
-          font-size: 20px; }
+        height: 60%;
+        width: 90%;
+        opacity: 1;
+        border-radius: 15px;
+        opacity: 0;
+        transform: translate(0px, -50px);
+        transition: all 0.4s ease-in-out;
+        background-color: #EFEEEE; }
+        .intro .people-holder .bhau .btext .bbackground {
+          position: relative;
+          top: 5%;
+          left: 5%;
+          height: 90%;
+          width: 90%; }
+          .intro .people-holder .bhau .btext .bbackground #bhausays {
+            opacity: 0.7;
+            color: #010100;
+            font-size: 20px; }
 
 .invite-cover {
   position: relative;
