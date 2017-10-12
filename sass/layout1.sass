@@ -212,6 +212,11 @@ figure
                     color: inherit
                     repeat: no-repeat
                     position: relative
+            .jimage:hover
+                filter: gray
+                -webkit-transition: all .8s ease-in-out
+                -webkit-filter: grayscale(1)
+                -webkit-transform: scale(1.09)
             #jname
                 margin-top: 5%
                 color: #010101
@@ -265,7 +270,11 @@ figure
                     color: black
                     repeat: no-repeat
                     position: relative
-
+            .bimage:hover
+                filter: gray
+                -webkit-transition: all .8s ease-in-out
+                -webkit-filter: grayscale(1)
+                -webkit-transform: scale(1.09)
             #bname
                 margin-top: 5%
                 color: #010101
@@ -337,13 +346,62 @@ figure
     margin: 200px auto
     position: absolute
     z-index: -2
-    .invite-page-1, .invite-page-2, .invite-page-3, .invite-page-4
+    .invite-page-3, .invite-page-4
         height: 350px
         width: 350px
         margin: 50px auto
         background: 
             opacity: 1
             color: black
+ 
+    .invite-page-1
+        height: 350px
+        width: 350px
+        margin: 50px auto
+        text-align: center
+        background: 
+            opacity: 1
+            color: gold
+        .haldi-text-holder
+            display: inline-block
+            margin: 25% auto
+            background: 
+                color: none
+            #haldi
+                margin-top: 20px
+                color: #010101
+                font-family: Snell Roundhand
+                opacity: 0.7
+                font-size: 60px
+            #haldi-time-date
+                margin-top: -5px
+                color: #010101
+                opacity: 0.4
+                font-size: 15px
+    .invite-page-2
+        height: 350px
+        width: 350px
+        margin: 50px auto
+        text-align: center
+        background: 
+            opacity: 1
+            color: LightCoral
+        .garba-text-holder
+            display: inline-block
+            margin: 25% auto
+            background: 
+                color: none
+            #garba
+                margin-top: 20px
+                color: #010101
+                font-family: Snell Roundhand
+                opacity: 0.7
+                font-size: 60px
+            #garba-time-date
+                margin-top: -5px
+                color: #010101
+                opacity: 0.4
+                font-size: 15px
     // .invite-page-2
     //     height: 350px
     //     width: 350px
@@ -459,30 +517,128 @@ figure
 //  image
 
 .place-holder-for-div
-    height: 3000px
+    height: 2700px
 
-.images-wedding
-    height: 400px
+.footer-holder
     width: 100%
-    .image-holder-title
-        height: 200px
-        background:
-            color: black
-        position: relative
-        margin-top: 50px
-        text-align: center
-        #images-title
+    .images-wedding
+        width: 100%
+        float: left
+        .image-holder-title
+            height: 200px
+            background:
+                color: black
             position: relative
-            padding-top: 70px
-            font-family: Snell Roundhand
-            font-size: 50px 
-            color: white
-    .image-holder-content
-        height: 200px
-        background:
-            color: green
-        position: relative
-        text-align: center
+            margin-top: 10px
+            text-align: center
+            #images-title
+                position: relative
+                padding-top: 70px
+                font-family: Snell Roundhand
+                font-size: 50px 
+                color: white
+        .image-holder-content-box
+            height: 200px
+            background:
+                color: green
+            position: relative
+            text-align: center
+            .image-holder-response-autoresize
+                width: 100%
+                .image-holder-response
+                    -webkit-transition: all .8s ease-in-out
+                    width: 25vw
+                    height: 25vw
+                    float: left
+                    .g1
+                        width: 25vw
+                        height: 25vw
+                        background:
+                            size: contain
+                            image: url(../images/baujeni/g1.JPG)
+                            color: yellow
+                            repeat: no-repeat
+                            position: relative
+                    .g2
+                        width: 25vw
+                        height: 25vw
+                        background:
+                            size: contain
+                            image: url(../images/baujeni/g2.PNG)
+                            color: yellow
+                            repeat: no-repeat
+                            position: relative
+                    .g3
+                        width: 25vw
+                        height: 25vw
+                        background:
+                            size: contain
+                            image: url(../images/baujeni/g3.JPG)
+                            color: yellow
+                            repeat: no-repeat
+                            position: relative
+                    .g4
+                        width: 25vw
+                        height: 25vw
+                        background:
+                            size: contain
+                            image: url(../images/baujeni/g4.JPG)
+                            color: yellow
+                            repeat: no-repeat
+                            position: relative
+                    .g5
+                        width: 25vw
+                        height: 25vw
+                        background:
+                            size: contain
+                            image: url(../images/baujeni/g8.PNG)
+                            color: yellow
+                            repeat: no-repeat
+                            position: relative
+                    .g6
+                        width: 25vw
+                        height: 25vw
+                        background:
+                            size: contain
+                            image: url(../images/baujeni/g6.PNG)
+                            color: yellow
+                            repeat: no-repeat
+                            position: relative
+                    .g7
+                        width: 25vw
+                        height: 25vw
+                        background:
+                            size: contain
+                            image: url(../images/baujeni/g7.PNG)
+                            color: yellow
+                            repeat: no-repeat
+                            position: relative
+                    .g8
+                        width: 25vw
+                        height: 25vw
+                        background:
+                            size: contain
+                            image: url(../images/baujeni/g5.JPG)
+                            color: yellow
+                            repeat: no-repeat
+                            position: relative
+                .image-holder-response:hover
+                    filter: gray
+                    -webkit-transition: all .8s ease-in-out
+                    -webkit-filter: grayscale(1)
+                    -webkit-transform: scale(1.09)
+    .contact-us
+        height: 100px
+        width: 100%
+        background: 
+            color: black
+        float: left
+    .footer-box
+        height: 100px
+        width: 100%
+        background: 
+            color: blue
+        float: left
 
 
 
@@ -561,7 +717,7 @@ figure
                 font-size: 15px
 
     .place-holder-for-div
-        height: 3100px
+        height: 2790px
  
     .invite-cover
         height: 350px
@@ -569,7 +725,15 @@ figure
 
     .invite-pages
         height: 1700
-        .invite-page-1, .invite-page-2, .invite-page-3, .invite-page-4
+        .invite-page-1
+            height: 350px
+            width: 250px
+            margin: 50px auto
+        .invite-page-2
+            height: 350px
+            width: 250px
+            margin: 50px auto
+        .invite-page-3, .invite-page-4
             height: 350px
             width: 250px
             margin: 50px auto
