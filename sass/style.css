@@ -1105,12 +1105,6 @@ figure {
   margin: 200px auto;
   position: absolute;
   z-index: -2; }
-  .invite-pages .invite-page-3, .invite-pages .invite-page-4 {
-    height: 350px;
-    width: 350px;
-    margin: 50px auto;
-    background-opacity: 1;
-    background-color: black; }
   .invite-pages .invite-page-1 {
     height: 350px;
     width: 350px;
@@ -1151,6 +1145,50 @@ figure {
         opacity: 0.7;
         font-size: 60px; }
       .invite-pages .invite-page-2 .garba-text-holder #garba-time-date {
+        margin-top: -5px;
+        color: #010101;
+        opacity: 0.4;
+        font-size: 15px; }
+  .invite-pages .invite-page-3 {
+    height: 350px;
+    width: 350px;
+    margin: 50px auto;
+    text-align: center;
+    background-opacity: 1;
+    background-color: IndianRed; }
+    .invite-pages .invite-page-3 .wedding-text-holder {
+      display: inline-block;
+      margin: 12% auto;
+      background-color: none; }
+      .invite-pages .invite-page-3 .wedding-text-holder #wedding {
+        margin-top: -20px;
+        color: #010101;
+        font-family: Snell Roundhand;
+        opacity: 0.7;
+        font-size: 60px; }
+      .invite-pages .invite-page-3 .wedding-text-holder #wedding-time-date {
+        margin-top: -25px;
+        color: #010101;
+        opacity: 0.4;
+        font-size: 15px; }
+  .invite-pages .invite-page-4 {
+    height: 350px;
+    width: 350px;
+    margin: 50px auto;
+    text-align: center;
+    background-opacity: 1;
+    background-color: SteelBlue; }
+    .invite-pages .invite-page-4 .reception-text-holder {
+      display: inline-block;
+      margin: 25% auto;
+      background-color: none; }
+      .invite-pages .invite-page-4 .reception-text-holder #reception {
+        margin-top: 20px;
+        color: #010101;
+        font-family: Snell Roundhand;
+        opacity: 0.7;
+        font-size: 60px; }
+      .invite-pages .invite-page-4 .reception-text-holder #reception-time-date {
         margin-top: -5px;
         color: #010101;
         opacity: 0.4;
