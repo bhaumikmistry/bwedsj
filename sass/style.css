@@ -1530,11 +1530,51 @@ figure {
       width: 20vh;
       border-radius: 75px;
       margin: 0 auto; }
+    .intro .people-holder .jeni .jtext .jbackground #jenisays {
+      opacity: 0.7;
+      color: #010100;
+      font-size: 17px; }
+    .intro .people-holder .jeni .jtext .jbackground #jenidetails {
+      opacity: 0.5;
+      color: #010100;
+      font-size: 15px; }
+    .intro .people-holder .jeni .jtext-writing .jtext-writing-doc0, .intro .people-holder .jeni .jtext-writing .jtext-writing-doc1, .intro .people-holder .jeni .jtext-writing .jtext-writing-doc2 {
+      margin-left: 10%;
+      margin-top: 12%;
+      height: 2vh;
+      width: 2vh;
+      float: left;
+      border-radius: 10px;
+      background-color: #008ae6; }
+    .intro .people-holder .jeni .jtext-writing .jtext-writing-doc1 {
+      background-color: #008ae6; }
+    .intro .people-holder .jeni .jtext-writing .jtext-writing-doc2 {
+      background-color: #008ae6; }
     .intro .people-holder .bhau .bimage {
       border-radius: 75px;
       height: 20vh;
       width: 20vh;
       margin: 0 auto; }
+    .intro .people-holder .bhau .btext .bbackground #bausays {
+      opacity: 0.7;
+      color: #010100;
+      font-size: 17px; }
+    .intro .people-holder .bhau .btext .bbackground #baudetails {
+      opacity: 0.5;
+      color: #010100;
+      font-size: 15px; }
+    .intro .people-holder .bhau .btext-writing .btext-writing-doc0, .intro .people-holder .bhau .btext-writing .btext-writing-doc1, .intro .people-holder .bhau .btext-writing .btext-writing-doc2 {
+      margin-left: 10%;
+      margin-top: 12%;
+      height: 2vh;
+      width: 2vh;
+      float: left;
+      border-radius: 10px;
+      background-color: #008ae6; }
+    .intro .people-holder .bhau .btext-writing .btext-writing-doc1 {
+      background-color: #008ae6; }
+    .intro .people-holder .bhau .btext-writing .btext-writing-doc2 {
+      background-color: #008ae6; }
   .content article #names {
     color: #010101;
     font-family: Georgia;
