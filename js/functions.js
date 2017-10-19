@@ -69,6 +69,9 @@ $('#clickme').click(function(){
     return false;
  });
 
+//set up on click for images in gallary
+
+
 //
 /////////////////////////////////////////////////////
 
@@ -184,12 +187,24 @@ $('.intro .jeni .jtext').css({
         'transform' : 'translate(0px,0px)',
         'opacity':'1'
     });
+$('.intro .jeni .jtext-writing').css({
+        'transform' : 'translate(0px,0px)',
+        'opacity':'1'
+    });
 setTimeout(function(){
     $('.intro .bhau .btext').css({
         'transform' : 'translate(0px,0px)',
         'opacity':'1'
     });
+    $('.intro .bhau .btext-writing').css({
+        'transform' : 'translate(0px,0px)',
+        'opacity':'1'
+    });
 },500);
+
+
+
+
 
 }
 
@@ -233,8 +248,61 @@ else if(wScroll > $('.intro').offset().top + 700 - ($(window).height()*0.65) && 
 // Set the date we're counting down to
 var countDownDate = new Date("Nov 18, 2017 19:30:00").getTime();
 
+var i = 0;
+window.onload = function start() {
+    slide();
+}
+function slide() {
+    var num = 0;;
+    colorsg = ['#cbcace', '#a4a2a9', '#cbcace'];
+    colorsb = ['#008ae6', '#006bb3', '#008ae6'];
+    window.setInterval(function () {
+        console.log("for")
+        console.log(i)
+        console.log(colorsg[i])   
+    
+    if(i == 0){
+        $('.intro .bhau .btext-writing .btext-writing-doc0').css({'background' : colorsb[0],});
+        $('.intro .bhau .btext-writing .btext-writing-doc1').css({'background' : colorsb[1],});
+        $('.intro .bhau .btext-writing .btext-writing-doc2').css({'background' : colorsb[2],});
+        $('.intro .jeni .jtext-writing .jtext-writing-doc0').css({'background' : colorsg[0],});
+        $('.intro .jeni .jtext-writing .jtext-writing-doc1').css({'background' : colorsg[1],});
+        $('.intro .jeni .jtext-writing .jtext-writing-doc2').css({'background' : colorsg[2],});
+    }
+    if(i == 1){
+        $('.intro .bhau .btext-writing .btext-writing-doc0').css({'background' : colorsb[1],});
+        $('.intro .bhau .btext-writing .btext-writing-doc1').css({'background' : colorsb[2],});
+        $('.intro .bhau .btext-writing .btext-writing-doc2').css({'background' : colorsb[0],});
+        $('.intro .jeni .jtext-writing .jtext-writing-doc0').css({'background' : colorsg[1],});
+        $('.intro .jeni .jtext-writing .jtext-writing-doc1').css({'background' : colorsg[2],});
+        $('.intro .jeni .jtext-writing .jtext-writing-doc2').css({'background' : colorsg[0],});
+    }
+    if(i == 2){
+        $('.intro .bhau .btext-writing .btext-writing-doc0').css({'background' : colorsb[2],});
+        $('.intro .bhau .btext-writing .btext-writing-doc1').css({'background' : colorsb[0],});
+        $('.intro .bhau .btext-writing .btext-writing-doc2').css({'background' : colorsb[1],});
+        $('.intro .jeni .jtext-writing .jtext-writing-doc0').css({'background' : colorsg[2],});
+        $('.intro .jeni .jtext-writing .jtext-writing-doc1').css({'background' : colorsg[0],});
+        $('.intro .jeni .jtext-writing .jtext-writing-doc2').css({'background' : colorsg[1],});
+    }
+
+
+
+        i=i+1
+        if(i>2){
+            i=0;
+        }
+        
+    }, 300); // repeat forever, polling every 3 seconds
+}
+
+
 // Update the count down every 1 second
 var x = setInterval(function() {
+
+    
+
+    
 
   // Get todays date and time
   var now = new Date().getTime();
@@ -260,4 +328,8 @@ var x = setInterval(function() {
   }
 }, 1000);
 
+
+
 // -------------------------------------------- //
+
+
