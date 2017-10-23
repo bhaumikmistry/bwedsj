@@ -1379,7 +1379,7 @@ figure {
         width: 100%; }
         .footer-holder .images-wedding .image-holder-content-box .image-holder-response-autoresize .image-holder-response {
           -webkit-transition: all .8s ease-in-out;
-          width: 24.5vw;
+          width: 24.9vw;
           height: 24.5vw;
           float: left; }
           .footer-holder .images-wedding .image-holder-content-box .image-holder-response-autoresize .image-holder-response .g1 {
@@ -1387,7 +1387,7 @@ figure {
             height: 25vw;
             background-size: contain;
             background-image: url(../images/baujeni/g1.JPG);
-            background-color: yellow;
+            background-color: black;
             background-repeat: no-repeat;
             background-position: relative; }
           .footer-holder .images-wedding .image-holder-content-box .image-holder-response-autoresize .image-holder-response .g2 {
@@ -1395,7 +1395,7 @@ figure {
             height: 25vw;
             background-size: contain;
             background-image: url(../images/baujeni/g2.PNG);
-            background-color: yellow;
+            background-color: black;
             background-repeat: no-repeat;
             background-position: relative; }
           .footer-holder .images-wedding .image-holder-content-box .image-holder-response-autoresize .image-holder-response .g3 {
@@ -1403,7 +1403,7 @@ figure {
             height: 25vw;
             background-size: contain;
             background-image: url(../images/baujeni/g3.JPG);
-            background-color: yellow;
+            background-color: black;
             background-repeat: no-repeat;
             background-position: relative; }
           .footer-holder .images-wedding .image-holder-content-box .image-holder-response-autoresize .image-holder-response .g4 {
@@ -1411,7 +1411,7 @@ figure {
             height: 25vw;
             background-size: contain;
             background-image: url(../images/baujeni/g4.JPG);
-            background-color: yellow;
+            background-color: black;
             background-repeat: no-repeat;
             background-position: relative; }
           .footer-holder .images-wedding .image-holder-content-box .image-holder-response-autoresize .image-holder-response .g5 {
@@ -1419,7 +1419,7 @@ figure {
             height: 25vw;
             background-size: contain;
             background-image: url(../images/baujeni/g8.PNG);
-            background-color: yellow;
+            background-color: black;
             background-repeat: no-repeat;
             background-position: relative; }
           .footer-holder .images-wedding .image-holder-content-box .image-holder-response-autoresize .image-holder-response .g6 {
@@ -1427,7 +1427,7 @@ figure {
             height: 25vw;
             background-size: contain;
             background-image: url(../images/baujeni/g6.PNG);
-            background-color: yellow;
+            background-color: black;
             background-repeat: no-repeat;
             background-position: relative; }
           .footer-holder .images-wedding .image-holder-content-box .image-holder-response-autoresize .image-holder-response .g7 {
@@ -1435,7 +1435,7 @@ figure {
             height: 25vw;
             background-size: contain;
             background-image: url(../images/baujeni/g7.PNG);
-            background-color: yellow;
+            background-color: black;
             background-repeat: no-repeat;
             background-position: relative; }
           .footer-holder .images-wedding .image-holder-content-box .image-holder-response-autoresize .image-holder-response .g8 {
@@ -1443,7 +1443,7 @@ figure {
             height: 25vw;
             background-size: contain;
             background-image: url(../images/baujeni/g5_.JPG);
-            background-color: yellow;
+            background-color: black;
             background-repeat: no-repeat;
             background-position: relative; }
         .footer-holder .images-wedding .image-holder-content-box .image-holder-response-autoresize .image-holder-response:hover {
@@ -1452,51 +1452,89 @@ figure {
           -webkit-filter: grayscale(1);
           -webkit-transform: scale(1.09); }
   .footer-holder .post-gallary-holder {
-    height: 50px;
+    height: 10px;
     width: 100%;
     background-color: black;
     float: left; }
+  .footer-holder .some-desing {
+    position: relative;
+    float: left;
+    height: 500px;
+    width: 100%;
+    background-color: white; }
+    .footer-holder .some-desing .thanks-you-holder {
+      text-align: center;
+      margin-top: 25%;
+      margin-left: 10%;
+      margin-right: 10%; }
+      .footer-holder .some-desing .thanks-you-holder #thank-you-parents {
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: -25px;
+        color: #010101;
+        opacity: 0.5;
+        font-size: 20px;
+        font-weight: 100; }
+      .footer-holder .some-desing .thanks-you-holder #thank-you {
+        font-family: Snell Roundhand;
+        margin-top: -15%;
+        color: #010101;
+        opacity: 0.2;
+        font-size: 70px;
+        font-weight: 100; }
   .footer-holder .contact-us {
-    height: 700px;
+    position: relative;
     width: 100%;
     background-color: white;
     float: left; }
     .footer-holder .contact-us .direction-header {
-      height: 200px;
+      height: 70px;
       width: 100%;
       background-color: black;
       text-align: center; }
       .footer-holder .contact-us .direction-header #direction-title {
         position: relative;
-        padding-top: 70px;
+        padding-top: 5px;
         font-family: Snell Roundhand;
         font-size: 50px;
         color: white; }
     .footer-holder .contact-us .direction {
-      height: 500px;
+      height: 0;
       width: 100%;
       text-align: center;
       float: left; }
       .footer-holder .contact-us .direction .left-text {
-        height: 100%;
-        width: 50%;
-        float: left;
-        background-color: green; }
-      .footer-holder .contact-us .direction .right-image {
-        height: 100%;
-        width: 50%;
-        float: left;
-        background-color: yellow; }
-  .footer-holder .some-desing {
-    float: left;
-    height: 40px;
-    width: 100%;
-    background-color: brown; }
+        width: 100%;
+        float: left; }
+        .footer-holder .contact-us .direction .left-text .addr {
+          height: 0;
+          width: 33.3vw;
+          float: left; }
+          .footer-holder .contact-us .direction .left-text .addr .one-Hall {
+            margin-top: 25%;
+            margin-left: 20%;
+            text-align: center; }
+        .footer-holder .contact-us .direction .left-text #addr-text-r, .footer-holder .contact-us .direction .left-text #addr-text-h, .footer-holder .contact-us .direction .left-text #addr-text-u {
+          font-family: Snell Roundhand;
+          margin-top: -15px;
+          color: #010101;
+          opacity: 0.3;
+          font-size: 25px; }
   .footer-holder .footer-box {
-    height: 100px;
+    height: 0;
     width: 100%;
     background-color: blue;
     float: left; }
+  .footer-holder .author {
+    height: 15px;
+    width: 100%; }
+    .footer-holder .author .author-holder {
+      float: right;
+      margin-right: 30px; }
+      .footer-holder .author .author-holder #name-author {
+        font-family: 'Times New Roman', Times, serif;
+        color: #010101;
+        opacity: 1;
+        font-size: 15px; }
 
 @media screen and (max-width: 600px) {
   .logo {
@@ -1540,18 +1578,20 @@ figure {
         opacity: 0.5;
         color: #010100;
         font-size: 15px; }
-    .intro .people-holder .jeni .jtext-writing .jtext-writing-doc0, .intro .people-holder .jeni .jtext-writing .jtext-writing-doc1, .intro .people-holder .jeni .jtext-writing .jtext-writing-doc2 {
-      margin-left: 10%;
-      margin-top: 12%;
-      height: 2vh;
-      width: 2vh;
-      float: left;
-      border-radius: 10px;
-      background-color: #008ae6; }
-    .intro .people-holder .jeni .jtext-writing .jtext-writing-doc1 {
-      background-color: #008ae6; }
-    .intro .people-holder .jeni .jtext-writing .jtext-writing-doc2 {
-      background-color: #008ae6; }
+    .intro .people-holder .jeni .jtext-writing {
+      width: 30%; }
+      .intro .people-holder .jeni .jtext-writing .jtext-writing-doc0, .intro .people-holder .jeni .jtext-writing .jtext-writing-doc1, .intro .people-holder .jeni .jtext-writing .jtext-writing-doc2 {
+        margin-left: 10%;
+        margin-top: 12%;
+        height: 2vh;
+        width: 2vh;
+        float: left;
+        border-radius: 10px;
+        background-color: #008ae6; }
+      .intro .people-holder .jeni .jtext-writing .jtext-writing-doc1 {
+        background-color: #008ae6; }
+      .intro .people-holder .jeni .jtext-writing .jtext-writing-doc2 {
+        background-color: #008ae6; }
     .intro .people-holder .bhau .bimage {
       border-radius: 75px;
       height: 20vh;
@@ -1567,18 +1607,20 @@ figure {
         opacity: 0.5;
         color: #010100;
         font-size: 15px; }
-    .intro .people-holder .bhau .btext-writing .btext-writing-doc0, .intro .people-holder .bhau .btext-writing .btext-writing-doc1, .intro .people-holder .bhau .btext-writing .btext-writing-doc2 {
-      margin-left: 10%;
-      margin-top: 12%;
-      height: 2vh;
-      width: 2vh;
-      float: left;
-      border-radius: 10px;
-      background-color: #008ae6; }
-    .intro .people-holder .bhau .btext-writing .btext-writing-doc1 {
-      background-color: #008ae6; }
-    .intro .people-holder .bhau .btext-writing .btext-writing-doc2 {
-      background-color: #008ae6; }
+    .intro .people-holder .bhau .btext-writing {
+      width: 30%; }
+      .intro .people-holder .bhau .btext-writing .btext-writing-doc0, .intro .people-holder .bhau .btext-writing .btext-writing-doc1, .intro .people-holder .bhau .btext-writing .btext-writing-doc2 {
+        margin-left: 10%;
+        margin-top: 12%;
+        height: 2vh;
+        width: 2vh;
+        float: left;
+        border-radius: 10px;
+        background-color: #008ae6; }
+      .intro .people-holder .bhau .btext-writing .btext-writing-doc1 {
+        background-color: #008ae6; }
+      .intro .people-holder .bhau .btext-writing .btext-writing-doc2 {
+        background-color: #008ae6; }
   .content article #names {
     color: #010101;
     font-family: Georgia;

@@ -69,7 +69,21 @@ $('#clickme').click(function(){
     return false;
  });
 
-//set up on click for images in gallary
+//set up on click for DIRECTION
+
+$('.contact-us').click(function(){
+
+    $('.contact-us .direction').css({'height':'33vh'});
+    $('.contact-us .direction .addr').css({'height':'33.3vh'});
+    document.getElementById("addr-text-h").innerHTML = "Hall"
+    document.getElementById("addr-text-u").innerHTML = "Utaro"
+    document.getElementById("addr-text-r").innerHTML = "Reception"
+
+
+
+});
+
+
 
 
 //
@@ -246,7 +260,7 @@ else if(wScroll > $('.intro').offset().top + 700 - ($(window).height()*0.65) && 
 
 // ---------------- timer ------------------- //
 // Set the date we're counting down to
-var countDownDate = new Date("Nov 18, 2017 19:30:00").getTime();
+var countDownDate = new Date("Nov 21, 2017 19:30:00").getTime();
 
 var i = 0;
 window.onload = function start() {
