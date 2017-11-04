@@ -1479,7 +1479,7 @@ figure {
         margin-top: -15%;
         color: #010101;
         opacity: 0.2;
-        font-size: 70px;
+        font-size: 130px;
         font-weight: 100; }
   .footer-holder .contact-us {
     position: relative;
@@ -1507,7 +1507,7 @@ figure {
         float: left; }
         .footer-holder .contact-us .direction .left-text .addr {
           height: 0;
-          width: 33.3vw;
+          width: 33vw;
           float: left; }
           .footer-holder .contact-us .direction .left-text .addr .one-Hall {
             margin-top: 25%;
