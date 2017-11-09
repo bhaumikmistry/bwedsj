@@ -1481,6 +1481,18 @@ figure {
         opacity: 0.2;
         font-size: 130px;
         font-weight: 100; }
+  .footer-holder .author {
+    height: 15px;
+    width: 100%;
+    float: left; }
+    .footer-holder .author .author-holder {
+      float: right;
+      margin-right: 30px; }
+      .footer-holder .author .author-holder #name-author {
+        font-family: 'Times New Roman', Times, serif;
+        color: #010101;
+        opacity: 1;
+        font-size: 15px; }
   .footer-holder .contact-us {
     position: relative;
     width: 100%;
@@ -1519,22 +1531,6 @@ figure {
           color: #010101;
           opacity: 0.3;
           font-size: 25px; }
-  .footer-holder .footer-box {
-    height: 0;
-    width: 100%;
-    background-color: blue;
-    float: left; }
-  .footer-holder .author {
-    height: 15px;
-    width: 100%; }
-    .footer-holder .author .author-holder {
-      float: right;
-      margin-right: 30px; }
-      .footer-holder .author .author-holder #name-author {
-        font-family: 'Times New Roman', Times, serif;
-        color: #010101;
-        opacity: 1;
-        font-size: 15px; }
 
 @media screen and (max-width: 600px) {
   .logo {
@@ -1678,4 +1674,38 @@ figure {
     .timeline ul li:nth-child(odd) div {
       left: 25px; }
     .timeline ul li:nth-child(even) div {
-      left: -169px; } }
+      left: -169px; }
+  .footer-holder .contact-us .direction {
+    height: 0;
+    width: 100%;
+    text-align: center;
+    float: left; }
+    .footer-holder .contact-us .direction .left-text {
+      width: 100%;
+      float: left; }
+      .footer-holder .contact-us .direction .left-text .addr {
+        height: 0;
+        width: 100vw;
+        float: left; }
+        .footer-holder .contact-us .direction .left-text .addr .one-Hall {
+          margin-top: 25%;
+          margin-left: 20%;
+          text-align: center; }
+      .footer-holder .contact-us .direction .left-text #addr-text-r, .footer-holder .contact-us .direction .left-text #addr-text-h, .footer-holder .contact-us .direction .left-text #addr-text-u {
+        font-family: Snell Roundhand;
+        margin-top: -15px;
+        color: #010101;
+        opacity: 0.3;
+        font-size: 18px; }
+  .footer-holder .author {
+    height: 15px;
+    width: 100%;
+    float: left; }
+    .footer-holder .author .author-holder {
+      float: right;
+      margin-right: 30px; }
+      .footer-holder .author .author-holder #name-author {
+        font-family: 'Times New Roman', Times, serif;
+        color: #010101;
+        opacity: 1;
+        font-size: 15px; } }
